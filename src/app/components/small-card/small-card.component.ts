@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class SmallCardComponent {
   @Input() photoCover: string = 'https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg';
   @Input() cardTitle: string = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
+  @Input() id: string = '0';
 
 }
